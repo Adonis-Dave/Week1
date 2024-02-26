@@ -1,0 +1,132 @@
+/* -------------------
+GENERAL STYLING
+------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+
+
+/* -------------------
+NAVIGATION STYLING
+------------------- */
+
+.first {
+    background: linear-gradient(to bottom, #11999e, #d411d48a);
+    padding: 30px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px;
+    margin: 0 90px;
+    border-radius: 30px;
+    background: rgba(128, 0, 128, 0.144);
+    ;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+}
+
+.list {
+    margin: 30px;
+    padding: 20px;
+    color: cornsilk;
+    text-decoration: none;
+}
+
+
+
+
+
+/* ---------------------
+FONT H1 AND PARAGRAPH STYLINGS RESPECTIVELY
+--------------------- */
+
+.text {
+    font-size: 3rem;
+    padding: 110px 90px;
+
+}
+
+.description {
+    padding: 130px 90px;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+/* -----------------
+BACKGROUND STYLING
+----------------- */
+#home,
+#about,
+#projects {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 70px;
+    color: white;
+}
+
+
+
+
+
+
+/* ------------------
+SECTIONS STYLING
+------------------ */
+
+#home {
+    background-image: url(Darkweb.jpg);
+    text-align: center;
+
+}
+
+#about {
+    background-image: url(3d.jpg);
+    text-align: center;
+
+}
+
+#projects {
+    background: linear-gradient(to bottom, #d411d48a, #11999e);
+
+}
+
+
+
+
+/* ------------
+PROJECTS STYLING
+------------ */
+
+.project {
+    padding: 110px 90px;
+    font-size: 1.5rem;
+}
+
+.project ul li {
+    list-style: square;
+}
+
+.prolist {
+    padding: 30px 0;
+}
